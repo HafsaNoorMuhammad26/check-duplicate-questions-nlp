@@ -12,8 +12,20 @@ from nltk.tokenize import word_tokenize
 import warnings
 warnings.filterwarnings('ignore')
 
-nltk.download('punkt', quiet=True)
-nltk.download('stopwords', quiet=True)
+import nltk
+import os
+
+# Create a directory in the app folder to store NLTK data
+nltk_data_dir = os.path.join(os.getcwd(), "nltk_data")
+os.makedirs(nltk_data_dir, exist_ok=True)
+
+# Point NLTK to use this directory
+nltk.data.path.append(nltk_data_dir)
+
+# Download required resources to this directory
+nltk.download('punkt', download_dir=nltk_data_dir, quiet=True)
+nltk.download('stopwords', download_dir=nltk_data_dir, quiet=True)
+
 
 
 
