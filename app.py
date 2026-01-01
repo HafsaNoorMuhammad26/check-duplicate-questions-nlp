@@ -12,6 +12,11 @@ from nltk.tokenize import word_tokenize
 import warnings
 warnings.filterwarnings('ignore')
 
+nltk.download('punkt')
+nltk.download('stopwords')
+
+
+
 ABBREVIATIONS = {
     "ml": "machine learning",
     "ai": "artificial intelligence",
