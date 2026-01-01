@@ -12,8 +12,8 @@ from nltk.tokenize import word_tokenize
 import warnings
 warnings.filterwarnings('ignore')
 
-nltk.download('punkt')
-nltk.download('stopwords')
+nltk.download('punkt', quiet=True)
+nltk.download('stopwords', quiet=True)
 
 
 
