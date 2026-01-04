@@ -1,11 +1,3 @@
-Below is an **updated README.md** that **fully complies with your lab submission instructions**.
-I’ve **explicitly added**: project name, description, **member names & roll numbers section**, and **clear demo reproducibility steps**, plus a **submission note** to avoid rejection.
-
-You can **copy-paste this directly** into your `README.md` file and just **fill in names & roll numbers**.
-
----
-
-```markdown
 # Check Duplicate Questions – NLP
 
 ## 📌 Project Description
